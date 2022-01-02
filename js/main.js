@@ -82,7 +82,7 @@ function fetchAllemployees(doc) {
 // });
 
 $("#next").on('click',() => {
-    window.location.href = "src/html/prek/prek.html"; 
+    window.location.href = "src/html/prek/kindergarten.html"; 
 })
 
 add_emp.on('submit', (e) => {
@@ -104,7 +104,7 @@ add_emp.on('submit', (e) => {
     $('#email').val('');
 
 //test().then(window.location.replace("file:///C:/Users/sonam/OneDrive/Documents/Sonam-test%20samples/firebase-crud/src/html/prek/prek.html")) 
-    window.location.replace("file:///C:/Users/sonam/OneDrive/Documents/Sonam-test%20samples/firebase-crud/src/html/prek/prek.html");
+ //   window.location.replace("file:///C:/Users/sonam/OneDrive/Documents/Sonam-test%20samples/firebase-crud/src/html/prek/prek.html");
 });
 {
     db.collection('employee').onSnapshot(snapshot => {
